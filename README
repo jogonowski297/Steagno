@@ -1,0 +1,29 @@
+Aby uruchomic program:
+- skolnuj repozytorium
+- zainstaluj stegano z poziomu cmd "pip install stegano"
+- odpal program komenda "py main.py"
+
+Wyniki wyświetlą się w konsoli.
+
+Wyniki:
+
+Czas szyfrowania dla 100KB.png oraz rozmiar (rozmiar oryginalny: 104327):
+ - Krotkie: 0.08177995681762695 | Rozmiar: 95363 B
+ - Srednie: 0.03390979766845703 | Rozmiar: 95387 B
+- Dlugie: 0.03789877891540527 | Rozmiar: 95481 B
+Czas szyfrowania dla 1MB.png oraz rozmiar (rozmiar oryginalny: 1068158):
+ - Krotkie: 0.43734002113342285 | Rozmiar: 966392 B
+- Srednie: 0.4827756881713867 | Rozmiar: 966400 B
+- Dlugie: 0.37514305114746094 | Rozmiar: 966413 B
+Czas szyfrowania dla 10MB.png oraz rozmiar (rozmiar oryginalny: 10473459):
+ - Krotkie: 4.115187406539917 | Rozmiar: 10166849 B
+- Srednie: 4.088552951812744 | Rozmiar: 10166942 B
+- Dlugie: 4.096567392349243 | Rozmiar: 10167467 B
+
+
+Czas odszyfrowania dla 100KBout.png:
+ - 0.010941743850708008
+ Czas odszyfrowania dla 1MBout.png:
+ - 0.025929927825927734
+Czas odszyfrowania dla 10MBout.png:
+ - 0.2837483882904053
